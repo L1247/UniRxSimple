@@ -1,14 +1,15 @@
 ﻿using UnityEngine;
-using UniRx;
-using UnityEngine.UI;
-using UniRx.Triggers;
-using System;
 using System.Collections;
+using UnityEngine.UI;
+using UniRx;
+using System;
+using UniRx.Triggers;
 
-public class UniRxPractice : MonoBehaviour
+/// <summary>
+/// Cold Observale 複數Steam
+/// </summary>
+public class ColdObservale_TimerSample : MonoBehaviour
 {
-    public Button btn;
-    public Text text1,text2,text3;
     // Use this for initialization
     IEnumerator Start ( )
     {
