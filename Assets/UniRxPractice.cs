@@ -9,6 +9,7 @@ public class UniRxPractice : MonoBehaviour
 {
     public Button btn;
     public Text text1,text2,text3;
+    public int i;
     // Use this for initialization
     IEnumerator Start ( )
     {
